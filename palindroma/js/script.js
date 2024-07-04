@@ -14,3 +14,10 @@ function palindrome(word) {
 //chiedo all'utente di inserire una parola 
 let word = prompt('Inserisci una parola: ')
 
+//se la parola è palindroma:
+if (palindrome(word)) {
+    console.log('La parola è palindroma');//ridai in console "La parola è palindroma"
+} else {
+    console.log('La parola non è palindroma');//altrimenti :"La parola non è palindroma"
+}
+
