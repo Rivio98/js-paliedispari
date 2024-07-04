@@ -16,3 +16,6 @@ let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5 '));
 
 //genero in modo randomico un numero per il computer da 1 a 5
 let computerNumber = getRandomNumber();
+
+//Sommare il numero utente e il numero computer3
+let result = userNumber + computerNumber 
