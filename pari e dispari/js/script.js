@@ -13,3 +13,6 @@ let userChoice = prompt('Pari o Dispari ? ').toLocaleLowerCase();
 
 //creo un'altro prompt dove chiedo all'utente un numero da 1 a 5
 let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5 '));
+
+//genero in modo randomico un numero per il computer da 1 a 5
+let computerNumber = getRandomNumber();
