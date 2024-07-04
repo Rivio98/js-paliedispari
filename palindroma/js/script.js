@@ -2,20 +2,20 @@
 function palindrome(word) {
 
     //rendere le parole inserite sempre in minuscolo
-    word = word.tolowercase();
+    word = word.toLowerCase();
 
     //divido, inverto e riunisco la parola inserita dall'utente creando una variabile
-    let confrontWord = word.split('').reverse('').join('');
+    let confrontWord = word.split('').reverse().join('');
 
     //confronto le due parole
-    return word === confrontWord
+    return word === confrontWord;
 }
 
 //chiedo all'utente di inserire una parola 
-let word = prompt('Inserisci una parola: ')
+let userWord = prompt('Inserisci una parola: ')
 
 //se la parola è palindroma:
-if (palindrome(word)) {
+if (palindrome(userWord)) {
     console.log('La parola è palindroma');//ridai in console "La parola è palindroma"
 } else {
     console.log('La parola non è palindroma');//altrimenti :"La parola non è palindroma"
