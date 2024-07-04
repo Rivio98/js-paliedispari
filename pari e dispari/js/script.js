@@ -10,3 +10,6 @@ function isEven(number) {
 
 //creo un prompt dove chiedo all'utente di scrivere pari o dispari
 let userChoice = prompt('Pari o Dispari ? ').toLocaleLowerCase();
+
+//creo un'altro prompt dove chiedo all'utente un numero da 1 a 5
+let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5 '));
