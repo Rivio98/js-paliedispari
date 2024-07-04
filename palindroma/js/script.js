@@ -10,3 +10,7 @@ function palindrome(word) {
     //confronto le due parole
     return word === confrontWord
 }
+
+//chiedo all'utente di inserire una parola 
+let word = prompt('Inserisci una parola: ')
+
