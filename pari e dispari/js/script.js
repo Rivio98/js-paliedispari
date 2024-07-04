@@ -7,3 +7,6 @@ function getRandomNumber() {
 function isEven(number) {
     return number % 2 == 0;
 }
+
+//creo un prompt dove chiedo all'utente di scrivere pari o dispari
+let userChoice = prompt('Pari o Dispari ? ').toLocaleLowerCase();
